@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>PEW PEW </title>
+    </head>
+
+    <body>
+        <section class="game" id="game">
+            <button id="rules-btn" class="btn rules-btn">Niveau de jeu</button>
+            <div id="rules" class="rules">
+                   <p> Niveau 1: facile 5 vies 
+                   </p>
+                   <p> Niveau 2: Moyen 4 vies </p>
+                    <p>Niveau 3: difficile 2 vies   </p>
+                   <p><input type="text" class="form controle livetiping" id="Livetyping"> </p>
+    
+                <button id="close-btn" class="btn close-btn">Commencer </button>
+            </div>
+            
+           
+            
+            <div id="game-over">
+                <img src="img/you-won.png" alt="" id="you-won">
+                <img src="img/game-over.png" alt="" id="you-lose">
+                <div id="restart">Rejouer</div>
+            </div>
+
+            <canvas id="canvas" width="600" height="500"></canvas>
+        </section>
+    
+        <script src="components.js"></script>
+        <script src="game.js"></script>
+  
+
+    
+    </body>
+</html>
